@@ -1,0 +1,38 @@
+dateModified: 1718453190
+email:
+  fromEmail: hello@brambeekman.online
+  fromName: 'EPA Duurzaam Vastgoed'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  companyInfo:
+    hasUrls: true
+    name: 'Company Info'
+    settings:
+      path: '@webroot/assets/img'
+    type: craft\fs\Local
+    url: '@web/assets/img'
+meta:
+  __names__:
+    3c387cbf-7be4-409f-8f68-6b474ccd9166: 'Company Info' # Company Info
+    3f51e942-7cad-42e6-baba-606b0c69b1ac: 'Company Address' # Company Address
+    05daf3ca-789e-41e0-91f0-20b90ba6e960: Home # Home
+    7b36f15e-d7fa-44a1-9524-2cedf1c42d87: 'EPA Duurzaam Vastgoed' # EPA Duurzaam Vastgoed
+    7da676c4-ae2b-4e1f-8ecf-ae1d3491638a: 'Company Logo Footer' # Company Logo Footer
+    43f6533a-89ca-409c-9f22-a4189c5c8d07: 'Company Phone' # Company Phone
+    81501203-d3aa-41c5-9aad-9eb4bc26b557: 'Company Info' # Company Info
+    b376b9ed-2e14-43bb-ab89-453dc9dd9992: 'Company Logo' # Company Logo
+    cce7a60a-69af-48a7-92ab-daab1ef1aa8a: 'EPA Duurzaam Vastgoed' # EPA Duurzaam Vastgoed
+    e4acf3de-2635-4090-b817-b93f55656999: Home # Home
+system:
+  edition: solo
+  live: true
+  name: 'EPA Duurzaam Vastgoed'
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

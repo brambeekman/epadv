@@ -1,0 +1,72 @@
+fieldLayouts:
+  cf3d082f-ee60-4a2e-8739-3ef9c2521d51:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b376b9ed-2e14-43bb-ab89-453dc9dd9992 # Company Logo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c5e83194-0194-4e5b-b0a5-8b7602cde0bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7da676c4-ae2b-4e1f-8ecf-ae1d3491638a # Company Logo Footer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 39b7a46a-3a75-4efd-befa-c7b18a9d2da2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f51e942-7cad-42e6-baba-606b0c69b1ac # Company Address
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 209bab91-6ccb-487a-8fdc-906d647fe5a5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 43f6533a-89ca-409c-9f22-a4189c5c8d07 # Company Phone
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d275c8c6-23bc-48f1-b0ed-8236fdcca338
+            userCondition: null
+            warning: null
+            width: 100
+        name: Info
+        uid: 07a21dda-01c9-41f3-b6d0-65252cf23015
+        userCondition: null
+handle: companyInfo
+name: 'Company Info'
+sortOrder: 1
