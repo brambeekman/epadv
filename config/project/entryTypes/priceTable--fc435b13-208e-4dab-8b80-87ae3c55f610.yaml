@@ -1,0 +1,95 @@
+color: null
+fieldLayouts:
+  10b7dca2-79d5-48ad-a094-7d64fae3390e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b321cf33-4f37-44f0-a35e-a02100b1bee4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fe71a401-258b-4005-a91e-d09d4321332a # Price Table Price
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4173ad20-6203-4978-8625-9714226597d7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 036fcc0a-50fd-47ec-b7b6-35a277999106 # Price Table Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1a225ec9-ad77-4185-ab47-4b0260703e00
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e273b880-6cc3-42a1-99b9-29a4bb7c0df1 # Price Table List
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 82ddcdff-c0fb-4aad-93d9-30f79de9ed32
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 45fe7ac3-2317-46d4-bba1-cabb3951bc40
+        userCondition: null
+handle: priceTable
+hasTitleField: true
+icon: ''
+name: 'Price Table'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

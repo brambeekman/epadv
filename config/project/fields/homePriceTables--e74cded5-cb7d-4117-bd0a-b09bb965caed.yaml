@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: homePriceTables
+instructions: null
+name: 'Home Price Tables'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - fc435b13-208e-4dab-8b80-87ae3c55f610 # Price Table
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

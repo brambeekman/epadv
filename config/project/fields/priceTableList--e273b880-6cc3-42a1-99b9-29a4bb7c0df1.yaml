@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: priceTableList
+instructions: null
+name: 'Price Table List'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - baf63157-9742-4173-8da9-e38c0768941b # Price Table LIst
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

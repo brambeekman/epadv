@@ -1,0 +1,22 @@
+<div class="service-section-3-areas section-padding5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="authoe-about-img">
+                    <img src="{% for image in entry.aboutTextImageFieldImage.all() %}{{ image.url }}{% endfor %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="author-about-text padding-section">
+                    <span class="font-cm font-18 weight-500 color-7 d-inline-block margin-b border-1">{{ entry.aboutTextImageFieldSubtitle }}</span>
+                    <h1 class="font-cm font-42 weight-600 color-13 lineh-50 margin-b24">{{ entry.aboutTextImageFieldTitle }}</h1>
+                    <span class="font-cm font-16 lineh-26 weight-400 color-12">{{ entry.aboutTextImageFieldText }}</span>
+
+                    <div class="all-3-btn margin-t40">
+                        <a href="/contact" class=" font-cm font-16 lineh-24 weight-600 color-white d-inline-block">{{ 'Contact ons'|t }}<span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

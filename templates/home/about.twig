@@ -4,16 +4,16 @@
         <div class="row align-items-center">
             <div class="col-lg-6" data-aos="flip-right" data-aos-duration="1000">
                 <div class="about-img-area">
-                    <img src="/assets/img/section-img/solar-lab.png" alt="">
+                    <img src="{% for image in entry.homeAboutImage.all() %}{{ image.url }}{% endfor %}" alt="">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-others-text">
-                    <span class="font-rubik font-16 weight-500 color-green about" data-aos="fade-left" data-aos-duration="600">Over EPA Duurzaam Vastgoed</span>
-                    <h2 class="font-rubik font-40 weight-700 lineh-48 " data-aos="fade-left" data-aos-duration="800">Lorem ipsum dolor sit amet, <span class="after-before">lorem ipsum </span>lorem ipsum. </h2>
-                    <p class="font-rubik font-20 lineh-30 weight-400 color-3" data-aos="fade-left" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, aspernatur commodi consequuntur dolore dolores earum eligendi error esse et eveniet minus, molestiae natus neque nisi nobis non nulla numquam omnis perspiciatis quisquam reprehenderit rerum sapiente sed sit soluta tempore tenetur ut veritatis.</p>
+                    <span class="font-rubik font-16 weight-500 color-green about" data-aos="fade-left" data-aos-duration="600">{{ entry.homeAboutSubtitle }}</span>
+                    <h2 class="font-rubik font-40 weight-700 lineh-48 " data-aos="fade-left" data-aos-duration="800">{{ entry.homeAboutTitle }}</h2>
+                    <span class="font-rubik font-20 lineh-30 weight-400 color-3" data-aos="fade-left" data-aos-duration="1000">{{ entry.homeAboutText }}</span>
                     <div class="welget-btn about-btn" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="#" class="welcome-get font-16 weight-700 font-rubik color-white">Lees meer over ons </a> <span class="long-arrow color-white"><i class="fa-solid fa-arrow-right-long"></i></span>
+                        <a href="#" class="welcome-get font-16 weight-700 font-rubik color-white">{{ 'Lees meer over ons'|t }} </a> <span class="long-arrow color-white"><i class="fa-solid fa-arrow-right-long"></i></span>
                     </div>
                 </div>
             </div>

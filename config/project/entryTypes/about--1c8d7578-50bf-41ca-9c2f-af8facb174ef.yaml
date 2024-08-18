@@ -1,0 +1,131 @@
+color: null
+fieldLayouts:
+  63237cb1-cc5d-41aa-a9ce-6ad0f6c0a259:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 88a7509c-ff3d-4344-affb-782bca7f18c0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 081be69d-2cca-4187-8369-409651afdd4c # About Header Background
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bbba4132-4097-440c-8b31-a010a444cbd6
+            userCondition: null
+            warning: null
+            width: 100
+        name: ' Header'
+        uid: f016f6a4-81f8-4633-903d-fd372081e7ca
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1a86ad6c-fcdd-4d00-abd9-89ef04726f76 # About Text Image Field Subtitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5cf93192-c8e6-435a-ac5a-87f8d0c3f9cc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9c718f35-2b3f-4f24-bc06-e94f9e32a02c # About Text Image Field Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55d0da3c-b4e5-4441-8122-676373bca0eb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e986825e-a1ab-43f5-a890-7866a8434d43 # About Text Image Field Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1bbf62c-71ae-4640-91db-e43dfa54c4e9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e73776f6-3ad9-4047-b84e-8937ab3426d9 # About Text Image Field Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b083125-5194-40c6-8bc4-cf14125d9a5f
+            userCondition: null
+            warning: null
+            width: 100
+        name: About
+        uid: acf5815f-ff9c-4995-81e5-1204139fe839
+        userCondition: null
+handle: about
+hasTitleField: true
+icon: address-card
+name: About
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

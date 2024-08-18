@@ -34,8 +34,251 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Inhoud
+          -
+            elementCondition: null
+            fieldUid: e9c74f9e-89b3-47ea-915f-513f6e6cb77a # Home Header Subtitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3616edc7-bb15-40ab-b390-ed0d4d48589f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 917da5af-012e-4c69-939b-e8388af5970a # Home Header Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48c4cbb1-5b71-4314-84df-1a0f61c11897
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 743440dd-161a-421a-9abb-f08eba401124 # Home Header Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bdefc2c0-8257-4ff6-8f91-b5e242126cfd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 57654038-76de-422f-b0f4-f972192202cd # Home Header Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ebd69c58-eee9-4763-9dd1-ee5b037546ba
+            userCondition: null
+            warning: null
+            width: 50
+        name: Header
         uid: 2a38747f-b77b-4e99-bb34-1a9e5b7c2cc5
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 41c0b4e4-976c-4e65-b452-1a74300fc6de # Home About Subtitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9f01c5f-3f07-4db8-8f7b-0964ec44fa35
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 741f3e44-26d6-4c25-9748-dd87fcabae4a # Home About Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 836a900c-1a87-4d2a-972d-436615d9f8cd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d3bc80a7-72b8-4829-bb1c-b9004fa5ddb4 # Home About Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77fe4a6d-a87f-4907-b367-c016b6782ae8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e9c91a1f-b562-4ed8-827b-d41d3de882e0 # Home About Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37b8e05b-c3fe-4586-89c9-c33b4182dfaa
+            userCondition: null
+            warning: null
+            width: 100
+        name: About
+        uid: 134f55bf-1a50-4054-a8db-b43803799966
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 41b421e4-805d-436e-ba45-5756bdfd6d5f # Home Why Subtitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b605214e-7a13-46d4-abe5-8cb7fbdd2398
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3114ec89-7ecc-4bfd-aff8-3a34d90ea8ac # Home Why Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0d780f32-30ce-4298-9d92-ff9cf7dc919e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1119c0f8-4279-471d-84a4-386dc4fad61b # Home Why Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34285bff-a87b-4994-8241-b101d4b09a63
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aaf6e925-c620-4232-b0de-ecc0a47018e3 # Home Why Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9bd43949-d288-4e39-9fc2-ab0126599644
+            userCondition: null
+            warning: null
+            width: 100
+        name: Why
+        uid: 36399948-8ef8-49d7-9e2f-a207d9eeeecb
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: aa80bbaa-5870-4883-9606-bd7213e4adb7 # Home Price Subtitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9796b607-5ab6-49a5-9c1b-6ed091000ac1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 108625bc-3e48-4f5a-a523-2a335ca1f719 # Home Price Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2fa42dfe-f59b-40ba-b46c-afd382fee7b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e74cded5-cb7d-4117-bd0a-b09bb965caed # Home Price Tables
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0b88fb97-08be-4e3d-94ec-e9f9159072f4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Price
+        uid: c9ff14b2-2ecd-484f-9242-625a03495f02
         userCondition: null
 handle: home
 hasTitleField: true

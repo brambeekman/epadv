@@ -1,0 +1,50 @@
+color: null
+fieldLayouts:
+  047e05ea-efec-4057-b94a-2463fdd3c4d9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d72c6a9a-759e-40fc-b64b-deaa418dcd23
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 81b4bebb-6aa0-444f-80e7-0785c9b63e10
+        userCondition: null
+handle: priceTableList
+hasTitleField: true
+icon: ''
+name: 'Price Table LIst'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

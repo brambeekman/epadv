@@ -1,4 +1,4 @@
-dateModified: 1718453190
+dateModified: 1719832110
 email:
   fromEmail: hello@brambeekman.online
   fromName: 'EPA Duurzaam Vastgoed'
@@ -13,21 +13,55 @@ fs:
     url: '@web/assets/img'
 meta:
   __names__:
+    1a86ad6c-fcdd-4d00-abd9-89ef04726f76: 'About Text Image Field Subtitle' # About Text Image Field Subtitle
+    1c8d7578-50bf-41ca-9c2f-af8facb174ef: About # About
     3c387cbf-7be4-409f-8f68-6b474ccd9166: 'Company Info' # Company Info
     3f51e942-7cad-42e6-baba-606b0c69b1ac: 'Company Address' # Company Address
     05daf3ca-789e-41e0-91f0-20b90ba6e960: Home # Home
+    5e33041c-8605-4452-801a-2ee579083c9c: 'About Text Subtile' # About Text Subtile
+    6f10309c-df22-4d71-9c8e-980d20e95193: Simple # Simple
     7b36f15e-d7fa-44a1-9524-2cedf1c42d87: 'EPA Duurzaam Vastgoed' # EPA Duurzaam Vastgoed
     7da676c4-ae2b-4e1f-8ecf-ae1d3491638a: 'Company Logo Footer' # Company Logo Footer
+    9c718f35-2b3f-4f24-bc06-e94f9e32a02c: 'About Text Image Field Title' # About Text Image Field Title
+    036fcc0a-50fd-47ec-b7b6-35a277999106: 'Price Table Text' # Price Table Text
+    41b421e4-805d-436e-ba45-5756bdfd6d5f: 'Home Why Subtitle' # Home Why Subtitle
+    41c0b4e4-976c-4e65-b452-1a74300fc6de: 'Home About Subtitle' # Home About Subtitle
     43f6533a-89ca-409c-9f22-a4189c5c8d07: 'Company Phone' # Company Phone
+    081be69d-2cca-4187-8369-409651afdd4c: 'About Header Background' # About Header Background
+    83f816ce-9c6d-4781-a06c-9c25d669a686: About # About
+    741f3e44-26d6-4c25-9748-dd87fcabae4a: 'Home About Title' # Home About Title
+    917da5af-012e-4c69-939b-e8388af5970a: 'Home Header Title' # Home Header Title
+    1119c0f8-4279-471d-84a4-386dc4fad61b: 'Home Why Text' # Home Why Text
+    3114ec89-7ecc-4bfd-aff8-3a34d90ea8ac: 'Home Why Title' # Home Why Title
+    108625bc-3e48-4f5a-a523-2a335ca1f719: 'Home Price Title' # Home Price Title
+    743440dd-161a-421a-9abb-f08eba401124: 'Home Header Text' # Home Header Text
+    57654038-76de-422f-b0f4-f972192202cd: 'Home Header Image' # Home Header Image
     81501203-d3aa-41c5-9aad-9eb4bc26b557: 'Company Info' # Company Info
+    aa80bbaa-5870-4883-9606-bd7213e4adb7: 'Home Price Subtitle' # Home Price Subtitle
+    aaf6e925-c620-4232-b0de-ecc0a47018e3: 'Home Why Image' # Home Why Image
     b376b9ed-2e14-43bb-ab89-453dc9dd9992: 'Company Logo' # Company Logo
+    baf63157-9742-4173-8da9-e38c0768941b: 'Price Table LIst' # Price Table LIst
     cce7a60a-69af-48a7-92ab-daab1ef1aa8a: 'EPA Duurzaam Vastgoed' # EPA Duurzaam Vastgoed
+    d3bc80a7-72b8-4829-bb1c-b9004fa5ddb4: 'Home About Text' # Home About Text
     e4acf3de-2635-4090-b817-b93f55656999: Home # Home
+    e9c74f9e-89b3-47ea-915f-513f6e6cb77a: 'Home Header Subtitle' # Home Header Subtitle
+    e9c91a1f-b562-4ed8-827b-d41d3de882e0: 'Home About Image' # Home About Image
+    e74cded5-cb7d-4117-bd0a-b09bb965caed: 'Home Price Tables' # Home Price Tables
+    e273b880-6cc3-42a1-99b9-29a4bb7c0df1: 'Price Table List' # Price Table List
+    e73776f6-3ad9-4047-b84e-8937ab3426d9: 'About Text Image Field Image' # About Text Image Field Image
+    e986825e-a1ab-43f5-a890-7866a8434d43: 'About Text Image Field Text' # About Text Image Field Text
+    fc435b13-208e-4dab-8b80-87ae3c55f610: 'Price Table' # Price Table
+    fe71a401-258b-4005-a91e-d09d4321332a: 'Price Table Price' # Price Table Price
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
   name: 'EPA Duurzaam Vastgoed'
-  schemaVersion: 5.0.0.20
+  schemaVersion: 5.0.0.21
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

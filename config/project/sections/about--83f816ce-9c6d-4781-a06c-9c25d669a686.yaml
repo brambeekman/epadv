@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 1c8d7578-50bf-41ca-9c2f-af8facb174ef # About
+handle: about
+maxAuthors: 1
+name: About
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  7b36f15e-d7fa-44a1-9524-2cedf1c42d87: # EPA Duurzaam Vastgoed
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/about.twig
+    uriFormat: about
+type: single

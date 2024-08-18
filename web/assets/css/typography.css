@@ -36,6 +36,11 @@ h5,
 h6{
   margin:0;
 }
+
+.author-about-text p {
+  margin-bottom: 10px;
+}
+
 p{
   margin: 0;
 }

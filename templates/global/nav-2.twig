@@ -1,0 +1,31 @@
+<header class="header about-bg" >
+    <div class="header-area header" id="header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="header-elements">
+                        <div class="site-logo">
+                            <a href="index-2.html"><img src="{% for img in companyInfo.companyLogo.all() %}{{ img.url }}{% endfor %}" alt=""></a>
+                        </div>
+                        <div class="main-menu-ex dropdown-shadow-area menu-bg-area">
+                            <ul>
+                                <li><a href="#" class="font-rubik font-18 weight-500">Home</a></li>
+                                <li><a href="#">Over</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-3 d-lg-block d-none">
+                            <div class="all-3-btn theme-btn">
+                                <a href="contact.html" class=" font-roboto font-16 lineh-24 weight-600 color d-inline-block ">Demo aanvragen <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
